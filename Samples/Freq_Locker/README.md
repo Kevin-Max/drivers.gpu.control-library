@@ -1,0 +1,1 @@
+Sample Application for locking GPU frequency

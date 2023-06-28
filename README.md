@@ -22,3 +22,12 @@ IGCL is meant to be a collection of high level APIs for all control aspects of h
 
 # Usage 
 cmake.exe -B <output_folder> -S <cmake_source_folder> -G "Visual Studio 17 2022" -A x64
+
+# (New) Freq Locker
+Freq Locker is a simple tool developed based on IGCL samples for locking GPU at max frequency. 
+
+# Build
+cmake.exe -B <output_folder> -S <freq_locker_source_folder> -G "Visual Studio 17 2022" -A x64
+
+# Usage
+Run "Freq_Locker.exe" in command window w/ admin privilege. 
